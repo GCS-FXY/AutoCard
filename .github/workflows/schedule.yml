@@ -27,7 +27,7 @@ jobs:
       - name: Sync with upstream
         if: github.repository != 'GCS-ZHN/AutoCard'
         continue-on-error: true
-        uses: aormsby/Fork-Sync-With-Upstream-action@v3.2
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.3.1
         with:
           upstream_sync_repo: GCS-ZHN/AutoCard
           upstream_sync_branch: main
